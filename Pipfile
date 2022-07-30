@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+psycopg2-binary = "*"
+flask = "*"
+alembic = "*"
+ipython = "*"
+PyJWT = "==1.7.1"
+simplegmail = "*"
+pyotp = "*"
+flask-cors = "*"
+python-engineio = "==3.13.2"
+flask-socketio = "==4.3.1"
+python-socketio = "==4.6.0"
+install = "*"
+werkzeug = "==2.0.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
